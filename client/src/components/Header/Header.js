@@ -125,14 +125,14 @@ class Header extends React.Component {
                       alt="menu"
                     />
                     <ul>
-                      <li><a href="http://www.google.com">HOW IT WORKS</a></li>
-                      <li><a href="http://www.google.com">PRICING</a></li>
-                      <li><a href="http://www.google.com">AGENCY SERVICE</a></li>
-                      <li><a href="http://www.google.com">ACTIVE CONTESTS</a></li>
-                      <li><a href="http://www.google.com">WINNERS</a></li>
-                      <li><a href="http://www.google.com">LEADERBOARD</a></li>
+                      <li><a href="#">HOW IT WORKS</a></li>
+                      <li><a href="#">PRICING</a></li>
+                      <li><a href="#">AGENCY SERVICE</a></li>
+                      <li><a href="#">ACTIVE CONTESTS</a></li>
+                      <li><a href="#">WINNERS</a></li>
+                      <li><a href="#">LEADERBOARD</a></li>
                       <li className={styles.last}>
-                        <a href="http://www.google.com">
+                        <a href="#">
                             BECOME A
                             CREATIVE
 </a>
@@ -146,11 +146,11 @@ class Header extends React.Component {
                       alt="menu"
                     />
                     <ul>
-                      <li><a href="http://www.google.com">NAMES</a></li>
-                      <li><a href="http://www.google.com">TAGLINES</a></li>
-                      <li><a href="http://www.google.com">LOGOS</a></li>
+                      <li><a href="#">NAMES</a></li>
+                      <li><a href="#">TAGLINES</a></li>
+                      <li><a href="#">LOGOS</a></li>
                       <li className={styles.last}>
-                        <a href="http://www.google.com">TESTIMONIALS</a>
+                        <a href="#">TESTIMONIALS</a>
                       </li>
                     </ul>
                   </li>
@@ -158,13 +158,13 @@ class Header extends React.Component {
                     <span>Names For Sale</span>
                     <img src={`${CONSTANTS.STATIC_IMAGES_PATH}menu-down.png`} alt="menu" />
                     <ul>
-                      <li><a href="http://www.google.com">POPULAR NAMES</a></li>
-                      <li><a href="http://www.google.com">SHORT NAMES</a></li>
-                      <li><a href="http://www.google.com">INTRIGUING NAMES</a></li>
-                      <li><a href="http://www.google.com">NAMES BY CATEGORY</a></li>
-                      <li><a href="http://www.google.com">VISUAL NAME SEARCH</a></li>
+                      <li><a href="#">POPULAR NAMES</a></li>
+                      <li><a href="#">SHORT NAMES</a></li>
+                      <li><a href="#">INTRIGUING NAMES</a></li>
+                      <li><a href="#">NAMES BY CATEGORY</a></li>
+                      <li><a href="#">VISUAL NAME SEARCH</a></li>
                       <li className={styles.last}>
-                        <a href="http://www.google.com">
+                        <a href="#">
                             SELL YOUR
                             DOMAINS
 </a>
@@ -178,11 +178,11 @@ class Header extends React.Component {
                       alt="menu"
                     />
                     <ul>
-                      <li><a href="http://www.google.com">ULTIMATE NAMING GUIDE</a></li>
-                      <li><a href="http://www.google.com">POETIC DEVICES IN BUSINESS NAMING</a></li>
-                      <li><a href="http://www.google.com">CROWDED BAR THEORY</a></li>
+                      <li><a href="#">ULTIMATE NAMING GUIDE</a></li>
+                      <li><a href="#">POETIC DEVICES IN BUSINESS NAMING</a></li>
+                      <li><a href="#">CROWDED BAR THEORY</a></li>
                       <li className={styles.last}>
-                        <a href="http://www.google.com">ALL ARTICLES</a>
+                        <a href="#">ALL ARTICLES</a>
                       </li>
                     </ul>
                   </li>

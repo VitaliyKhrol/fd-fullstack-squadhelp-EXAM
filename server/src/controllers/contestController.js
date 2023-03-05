@@ -5,6 +5,7 @@ const userQueries = require('./queries/userQueries');
 const controller = require('../socketInit');
 const UtilFunctions = require('../utils/functions');
 const CONSTANTS = require('../constants');
+const AuthorizedError = require('../errors/UserNotAutorizationError');
 
 module.exports.dataForContest = async (req, res, next) => {
   const response = {};
