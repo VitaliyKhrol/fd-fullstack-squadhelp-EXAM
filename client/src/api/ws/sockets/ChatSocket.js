@@ -4,9 +4,8 @@ import CONTANTS from '../../../constants';
 import { addMessage, changeBlockStatusInStore } from '../../../actions/actionCreator';
 
 class ChatSocket extends WebSocket {
-  constructor(dispatch, getState, room) {
-    super(dispatch, getState, room);
-  }
+  // конструктор в классе ChatSocket не нужен, поскольку 
+  // он просто вызывает конструктор своего родительского класса WebSocket. 
 
     anotherSubscribes = () => {
       this.onNewMessage();

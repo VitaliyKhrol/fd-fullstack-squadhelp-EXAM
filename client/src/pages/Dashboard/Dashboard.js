@@ -7,9 +7,10 @@ import CreatorDashboard from '../../components/CreatorDashboard/CreatorDashboard
 import Header from '../../components/Header/Header';
 
 const Dashboard = (props) => {
-  const { role, history, dataForContest } = props;
+  const { role, history } = props;
   console.log(props)
-  
+  console.log(role)
+ 
   // обработка случая, когда свойство role отсутствует, происходит перенаправление на страницу авторизации
   if (!role ) {
     return <Redirect to="/login" />; 

@@ -10,7 +10,7 @@ const OptionalSelects = (props) => {
     return <Spinner />;
   }
   switch (props.contestType) {
-    case CONSTANTS.NAME_CONTEST: {
+    case CONSTANTS.NAME_CONTEST:
       return (
         <>
           <SelectInput
@@ -37,8 +37,8 @@ const OptionalSelects = (props) => {
           />
         </>
       );
-    }
-    case CONSTANTS.LOGO_CONTEST: {
+
+    case CONSTANTS.LOGO_CONTEST:
       return (
         <>
           <div className={styles.inputContainer}>
@@ -69,8 +69,8 @@ const OptionalSelects = (props) => {
           />
         </>
       );
-    }
-    case CONSTANTS.TAGLINE_CONTEST: {
+
+    case CONSTANTS.TAGLINE_CONTEST:
       return (
         <>
           <div className={styles.inputContainer}>
@@ -101,7 +101,8 @@ const OptionalSelects = (props) => {
           />
         </>
       );
-    }
+    default:
+      return null;
   }
 };
 
